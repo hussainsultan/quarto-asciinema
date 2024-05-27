@@ -2,8 +2,5 @@
 title: "Asciinema Example"
 ---
 
-## Heading
 
-{{< asciinema ./demo.cast col="80" rows="24" autoPlay="true" speed="4" theme="dracula" poster="npt:1:23">}}
-
-
+{{< asciinema ./demo.cast col="80" rows="15" autoPlay="true" speed="4" theme="dracula" poster="npt:1:23">}}

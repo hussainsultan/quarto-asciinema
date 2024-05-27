@@ -22,10 +22,8 @@ return {
     for k, v in pairs(kwargs) do
       options[k] = pandoc.utils.stringify(v)
     end
-    -- Convert options table to JSON-like string
     local optionsJson = tableToJson(options)
 
-    -- detect html
     if quarto.doc.is_format("html:js") then
       ensureHtmlDeps()
 
